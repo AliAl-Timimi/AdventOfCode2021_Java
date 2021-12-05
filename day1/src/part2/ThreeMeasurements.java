@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
-public class ThreeMeasurement {
+public class ThreeMeasurements {
     public static int getIncreases() {
         try (Scanner sc = new Scanner(new File("day1/src/data.txt"))){
             List<Integer> list = new ArrayList<>();
